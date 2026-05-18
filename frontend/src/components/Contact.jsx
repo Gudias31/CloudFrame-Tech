@@ -21,9 +21,9 @@ function Contact() {
               <WhatsAppIcon />
               <span>Falar no WhatsApp</span>
             </a>
-            {/* <a href="mailto:email@wavesync.tech>" className="btn btn--ghost btn--ghost-light">
+            <a href="mailto:wavesynctechnology.com>" className="btn btn--ghost btn--ghost-light">
               email@wavesync.tech
-            </a> */}
+            </a> 
           </div>
         </div>
       </div>
