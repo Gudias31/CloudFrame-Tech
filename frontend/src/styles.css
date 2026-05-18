@@ -971,3 +971,35 @@ main {
     transition: none;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  .bg-grid,
+  .bg-glow,
+  .hero__cloud {
+    display: none;
+  }
+
+  .glass-nav,
+  .glass-card,
+  .glass-card-strong,
+  .glass-panel,
+  .hero__stats,
+  .nav__links {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .btn::before {
+    display: none;
+  }
+
+  .hero__cloud {
+    animation: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
