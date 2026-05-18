@@ -1,4 +1,4 @@
-import { WhatsAppIcon } from './Icons'
+import { MailIcon, WhatsAppIcon } from './Icons'
 
 function Contact() {
   return (
@@ -21,8 +21,12 @@ function Contact() {
               <WhatsAppIcon />
               <span>Falar no WhatsApp</span>
             </a>
-            <a href="mailto:contato@wavesynctech.com.br" className="btn btn--ghost btn--ghost-light">
-              contato@wavesynctech.com.br
+            <a
+              href="mailto:contato@wavesynctech.com.br"
+              className="btn btn--email"
+            >
+              <MailIcon />
+              <span>contato@wavesynctech.com.br</span>
             </a>
           </div>
         </div>
