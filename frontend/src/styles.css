@@ -938,3 +938,36 @@ main {
 .reveal[data-stagger] {
   transition-delay: calc(var(--i, 0) * 0.08s);
 }
+
+@media (max-width: 640px) {
+  .bg-grid {
+    opacity: 0.35;
+    background-size: 72px 72px;
+    mask-image: none;
+  }
+
+  .bg-glow,
+  .hero__cloud {
+    display: none;
+  }
+
+  .glass-nav,
+  .glass-card,
+  .glass-card-strong,
+  .glass-panel,
+  .hero__stats,
+  .nav__links {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .btn::before {
+    display: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

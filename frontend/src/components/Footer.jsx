@@ -13,7 +13,14 @@ function Footer() {
     <footer className="site-footer">
       <div className="container footer__inner">
         <div className="footer__brand">
-          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="WaveSync" className="footer__logo-img" />
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt="WaveSync"
+            className="footer__logo-img"
+            width="34"
+            height="34"
+            loading="lazy"
+          />
           <span className="footer__name">WaveSync Technology</span>
         </div>
         <p className="footer__rights">
